@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap');
+
+section {
+    display: flex;
+    align-items: center;
+}
+p {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 5rem;
+    font-weight: 700;
+    margin-left: 50px; 
+}
+span {
+    color: #FFE459;
+}

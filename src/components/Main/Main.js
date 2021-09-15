@@ -11,7 +11,7 @@ import Blog from '../../pages/Blog'
 
 const Main = () => {
     return (
-      <section>
+      
             <Router>
               <Header />
               <Switch>
@@ -29,7 +29,7 @@ const Main = () => {
                 </Route>
               </Switch>
             </Router>
-      </section>
+      
     )
   }
   

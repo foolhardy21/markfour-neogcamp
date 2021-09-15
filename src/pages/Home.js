@@ -1,10 +1,13 @@
 import React from 'react'
+import styles from './Home.module.css'
 
 const Home = () => {
     return (
-        <div>
-            Home Page
-        </div>
+        <section>
+            <p>
+                Learning and Building<br></br>Web Apps<span>.</span>
+            </p>
+        </section>
     )
 }
 
