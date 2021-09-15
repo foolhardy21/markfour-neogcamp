@@ -1,0 +1,15 @@
+footer {
+    margin-top: auto;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #082032;
+    border-top-style: solid;
+    border-top-width: thin;
+    border-color: white;
+}
+
+a {
+    margin: 0 20px;
+}
