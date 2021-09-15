@@ -5,8 +5,8 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import styles from './Main.module.css'
 
 import Header from "../../components/Header/Header"
-import Home from '../../pages/Home'
-import About from '../../pages/About'
+import Home from '../../pages/Home/Home'
+import About from '../../pages/About/About'
 import Project from '../../pages/Project'
 import Blog from '../../pages/Blog'
 
@@ -19,13 +19,13 @@ const Main = () => {
                 <Route exact path='/' >
                   <Home />
                 </Route>
-                <Route exact path='/aboutme' >
+                <Route path='/aboutme' >
                   <About />
                 </Route>
-                <Route exact path='/projects' >
+                <Route path='/projects' >
                   <Project />
                 </Route>
-                <Route exact path='/blogs' >
+                <Route path='/blogs' >
                   <Blog />
                 </Route>
               </Switch>

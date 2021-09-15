@@ -1,16 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap');
-
-section {
+.hero {
     display: flex;
     align-items: center;
 }
-p {
+.hero_headline {
     font-family: 'Playfair Display', serif;
     color: white;
     font-size: 5rem;
     font-weight: 700;
     margin-left: 50px; 
 }
-span {
+.highlight {
     color: #FFE459;
 }
