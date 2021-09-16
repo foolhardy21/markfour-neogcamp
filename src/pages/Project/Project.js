@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Project.module.css'
-import projects from './projectdata'
+import {projects, months} from './projectdata'
 
 const Project = () => {
     return (
@@ -11,7 +11,7 @@ const Project = () => {
                     return <article key={url} className={styles.projectarticle}>
                         <div className={styles.projecthead}>{name}</div>
                         <div className={styles.projectdescr}>{description}</div>
-                        <div className={styles.projectdate}>{date.getDate()}-{date.getMonth()}-{date.getFullYear()}</div>
+                        <div className={styles.projectdate}>{date.getDate()} - {months[date.getMonth()]} - {date.getFullYear()}</div>
                         <div className={styles.projectlinks}>
                             <a href={url} target='_blank' rel='noreferrer' className={styles.projectlive}>live</a>
                             <a href={source} target='_blank' rel='noreferrer' className={styles.projectcode}>code</a>
