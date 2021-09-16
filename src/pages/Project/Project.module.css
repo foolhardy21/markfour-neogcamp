@@ -1,0 +1,49 @@
+.gridsection {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    color: white;
+    padding: 5px;
+}
+
+.projectarticle {
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+}
+.projectarticle:hover {
+    border-color: #FFE459;
+}
+
+.projecthead {
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 2px;
+}
+.projectdescr {
+    letter-spacing: 1.5px;
+    margin-bottom: 2px;
+}
+.projectdate {
+    margin-bottom: 20px;
+}
+
+.projectlive {
+    border-radius: 10px;
+    padding: 8px;
+}
+.projectlive:hover {
+    color: #FFE459;
+}
+.projectcode {
+    border-radius: 10px;
+    padding: 8px;
+}
+.projectcode:hover {
+    color: #FFE459;
+}

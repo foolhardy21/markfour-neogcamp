@@ -7,7 +7,7 @@ import styles from './Main.module.css'
 import Header from "../../components/Header/Header"
 import Home from '../../pages/Home/Home'
 import About from '../../pages/About/About'
-import Project from '../../pages/Project'
+import Project from '../../pages/Project/Project'
 import Blog from '../../pages/Blog'
 
 const Main = () => {
