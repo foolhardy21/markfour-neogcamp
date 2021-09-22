@@ -1,6 +1,7 @@
 .hero {
     display: flex;
     align-items: center;
+    min-height: 70vh;
 }
 .hero_headline {
     font-family: 'Playfair Display', serif;

@@ -1,4 +1,5 @@
 .about_section {
+    min-height: 70vh;
     color: white;
     font-family: 'Playfair Display', serif;
     display: flex;

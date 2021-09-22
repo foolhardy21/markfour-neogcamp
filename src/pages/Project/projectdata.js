@@ -21,7 +21,7 @@ const projects = [
         source: 'https://github.com/foolhardy21/marksix-neogcamp',
     },
     {
-        name: 'Know your emotions',
+        name: 'Animal Emojis',
         description: 'An emoji translation app',
         date: new Date('2021-9-17'),
         url: 'https://serene-hodgkin-2f513c.netlify.app/',
@@ -69,7 +69,7 @@ const projects = [
         url: 'https://mystifying-wilson-9b4849.netlify.app/',
         source: 'https://github.com/foolhardy21/markfourteen-neogcamp',
     },
-    
+       
     
 ]
 
