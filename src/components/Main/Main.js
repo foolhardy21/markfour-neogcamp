@@ -8,7 +8,8 @@ import Header from "../../components/Header/Header"
 import Home from '../../pages/Home/Home'
 import About from '../../pages/About/About'
 import Project from '../../pages/Project/Project'
-import Blog from '../../pages/Blog'
+import BlogList from '../../pages/Blog/BlogList'
+import Blog from '../../pages/Blog/Blog'
 
 const Main = () => {
     return (
@@ -16,18 +17,11 @@ const Main = () => {
             <Router>
               <Header />
               <Switch>
-                <Route exact path='/' >
-                  <Home />
-                </Route>
-                <Route path='/aboutme' >
-                  <About />
-                </Route>
-                <Route path='/projects' >
-                  <Project />
-                </Route>
-                <Route path='/blogs' >
-                  <Blog />
-                </Route>
+                <Route exact path='/' component={Home} />
+                <Route path='/aboutme' component={About} />
+                <Route path='/projects' component={Project} />
+                <Route path='/blogs' exact component={BlogList} />
+                <Route path='/blogs/:url' component={Blog} />
               </Switch>
             </Router>
       
