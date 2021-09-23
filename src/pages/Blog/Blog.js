@@ -5,7 +5,7 @@ import styles from './Blog.module.css'
 
 const Blog = ({match}) => {
     const [blog, setBlog] = useState({})
-    console.log(blog)
+    
     useEffect(() => {
         const currentblog = blogs.find(item => item.url === match.params.url)  
         setBlog({...currentblog})
@@ -19,7 +19,12 @@ const Blog = ({match}) => {
                     blog.date &&  
                     <p className={styles.blog_date}>{blog.date.getFullYear()}-{months[blog.date.getMonth()]}-{blog.date.getDate()}</p>
                 }
-                <p className={styles.blog_text}>{blog.text}</p>
+                {
+                    blog.text &&
+                    blog.text.map((item, index) => 
+                        <p key={index} className={styles.blog_text}>{item}</p>
+                    )
+                }
             </article>
         </section>
     )

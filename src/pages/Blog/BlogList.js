@@ -16,7 +16,7 @@ const BlogList = () => {
                                 {blog.date.getFullYear()}-{months[blog.date.getMonth()]}-{blog.date.getDate()}
                             </span><br/>
                             <p className={styles.bloglist_text}>
-                                {blog.text.slice(0,50)}. . . .
+                                {blog.text[0].slice(0,50)} . . . .
                                 <Link to={`/blogs/${blog.url}`}>
                                     Read More
                                 </Link>
