@@ -8,13 +8,13 @@ const Footer = () => {
     return (
       <footer>
             <a href='https://github.com/foolhardy21' target='_blank' rel="noreferrer">
-              <GitHubIcon style={{ color: 'white' }} />
+              <GitHubIcon style={{ color: 'white', fontSize: '2.2vmax' }} />
             </a>
             <a href='https://www.linkedin.com/in/vinay-kumar-279a91167/' target='_blank' rel="noreferrer">
-              <LinkedInIcon style={{ color: 'white' }} />
+              <LinkedInIcon style={{ color: 'white', fontSize: '2.2vmax' }} />
             </a>
             <a href='https://twitter.com/foolhardy_vinay' target='_blank' rel="noreferrer">
-              <TwitterIcon style={{ color: 'white' }} />
+              <TwitterIcon style={{ color: 'white', fontSize: '2.2vmax' }} />
             </a>
       </footer>
     )

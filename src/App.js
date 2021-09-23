@@ -7,10 +7,10 @@ import Footer from "./components/Footer/Footer"
 
 const App = () => {
   return (
-    <main>
+    <>
           <Main />
           <Footer />
-    </main>
+    </>
   )
 }
 

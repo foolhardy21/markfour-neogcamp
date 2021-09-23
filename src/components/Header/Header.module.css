@@ -11,28 +11,39 @@ header {
     border-color: white;
 }
 
-figure {
+header figure {
     color: #FFE459;
     margin: 0 0 25px 0;
-    font-size: 3rem;
+    font-size: 3vmax;
     letter-spacing: 4px;
 }
 
-ul {
+header ul {
     display: flex;
 }
-li {
-    margin: 0 8px 8px 8px;
+header li {
+    margin: 0 25px 10px 25px;
+    font-size: 1.3vmax;
     letter-spacing: 2px;
     list-style: none;
 }
-a {
+header a {
     color: white;
     text-decoration: none;       
 }
-li:hover {
+header li:hover {
     cursor: pointer;
     color: #FFE459;
 }
 
 
+@media only screen and (max-width: 420px) {
+    header figure {
+        font-size: 4vmax;
+    }
+    header li {
+        font-size: 1.5vmax;
+        margin-left: 15px;
+        margin-right: 15px; 
+    }
+}
