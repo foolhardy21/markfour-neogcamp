@@ -3,3 +3,29 @@
     padding: 0;
 }
 
+.blog_section {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.blog_article {
+    color: white;
+    width: 40vw;
+    padding: 8px;
+    line-height: 25px;
+    letter-spacing: 3px;
+}
+.blog_title {
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.blog_date {
+    font-size: 0.9rem;
+    color: rgb(238, 237, 237);
+}
+.blog_text {
+    margin-top: 10px;
+}

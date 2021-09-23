@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.blog_section {
+.bloglist_section {
     min-height: 70vh;
     display: flex;
     flex-direction: column;
@@ -11,23 +11,26 @@
     padding: 30px 0;
 }
 
-.blog_article {
+.bloglist_article {
     background: white;
     width: 30vw;
     padding: 8px;
     border-style: solid;
     border-radius: 8px;
 }
-.blog_article a {
+.bloglist_article a {
     color: black;
 }
-.blog_title {
+.bloglist_article a:hover {
+    text-decoration: underline;
+}
+.bloglist_title {
     text-transform: capitalize;
 }
-.blog_date {
+.bloglist_date {
     font-size: 0.9rem;
     color: rgb(54, 53, 53);
 }
-.blog_text {
+.bloglist_text {
     margin-top: 10px;
 }
