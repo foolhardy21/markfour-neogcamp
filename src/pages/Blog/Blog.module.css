@@ -28,4 +28,21 @@
 }
 .blog_text {
     margin-top: 10px;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 420px) {
+    .blog_article {
+        width: 70vw;
+    }
+    .blog_title {
+        font-size: 2vmax;
+    }
+    .blog_date {
+        font-size: 1.3vmax;
+    }
+    .blog_text {
+        font-size: 1.8vmax;
+    }
+    
 }
