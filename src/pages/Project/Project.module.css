@@ -52,13 +52,18 @@
     color: #FFE459;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 850px) {
     .gridsection {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         padding: 20px;
     }
     .projectarticle {
         padding: 10px 0;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .gridsection {
+        grid-template-columns: repeat(1, 1fr);
     }
     .projecthead {
         font-size: 2vmax;

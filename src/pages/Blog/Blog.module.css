@@ -31,6 +31,11 @@
     text-align: justify;
 }
 
+@media only screen and (max-width: 850px) {
+    .blog_article {
+        width: 60vw;
+    }
+}
 @media only screen and (max-width: 420px) {
     .blog_article {
         width: 70vw;

@@ -13,6 +13,11 @@
     color: #FFE459;
 }
 
+@media only screen and (max-width: 850px) {
+    .about_section {
+        font-size: 1.3rem;
+    }
+}
 @media only screen and (max-width: 420px) {
     .about_section {
         font-size: 1.2rem;
