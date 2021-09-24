@@ -74,7 +74,7 @@
         font-size: 1.9vmax;
     }
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 450px) {
     .gridsection {
         grid-template-columns: repeat(1, 1fr);
     }
