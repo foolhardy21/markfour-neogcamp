@@ -21,6 +21,13 @@ const projects = [
         source: 'https://github.com/foolhardy21/marksix-neogcamp',
     },
     {
+        name: 'Navi Speak',
+        description: 'A translation app using an API',
+        date: new Date('2021-9-26'),
+        url: 'https://priceless-babbage-a7afcc.netlify.app/',
+        source: 'https://github.com/foolhardy21/markseven-neogcamp',
+    },
+    {
         name: 'Animal Emojis',
         description: 'An emoji translation app',
         date: new Date('2021-9-17'),
