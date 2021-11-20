@@ -8,7 +8,7 @@ import Header from "../../components/Header/Header"
 import Home from '../../pages/Home/Home'
 import About from '../../pages/About/About'
 import Project from '../../pages/Project/Project'
-import BlogList from '../../pages/Blog/BlogList'
+import BlogList from '../../pages/BlogList/BlogList'
 import Blog from '../../pages/Blog/Blog'
 
 const Main = () => {
