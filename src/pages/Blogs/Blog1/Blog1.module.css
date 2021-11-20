@@ -17,19 +17,6 @@
     line-height: 25px;
     letter-spacing: 2px;
 }
-.blog_title {
-    text-transform: capitalize;
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-}
-.blog_date {
-    font-size: 0.9rem;
-    color: rgb(238, 237, 237);
-}
-.blog_text {
-    margin-top: 10px;
-    text-align: justify;
-}
 
 @media only screen and (max-width: 850px) {
     .blog_article {
@@ -40,14 +27,5 @@
     .blog_article {
         width: 70vw;
     }
-    .blog_title {
-        font-size: 2vmax;
-    }
-    .blog_date {
-        font-size: 1.3vmax;
-    }
-    .blog_text {
-        font-size: 1.8vmax;
-    }
-    
+ 
 }
