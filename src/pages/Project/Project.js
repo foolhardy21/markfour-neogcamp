@@ -1,8 +1,13 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import styles from './Project.module.css'
 import {projects, months} from './projectdata'
 
 const Project = () => {
+
+    useEffect(() => {
+        document.title = 'Projects | VinayKumar'
+    },[])
+
     return (
         <section className={styles.gridsection}>
             {

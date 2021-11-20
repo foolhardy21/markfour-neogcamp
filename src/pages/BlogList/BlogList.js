@@ -1,10 +1,15 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { Link } from 'react-router-dom'
 import blogs_list from './listing_page_data'
 import { months } from '../Project/projectdata'
 import styles from './BlogList.module.css'
 
 const BlogList = () => {
+
+    useEffect(() => {
+        document.title = 'Blogs | VinayKumar'
+    },[])
+
     return (
         <section className={styles.bloglist_section}>
 
