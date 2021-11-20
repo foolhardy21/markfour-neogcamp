@@ -10,18 +10,26 @@ const Header = () => {
             <figure>vk</figure>
             <nav>
               <ul>
-                  <Link to='/'>
-                    <li>home</li>
-                  </Link>
-                  <Link to='/aboutme'>
-                    <li>about</li>
-                  </Link>
-                  <Link to='/projects'>
-                  <li>projects</li>
-                  </Link>
-                  <Link to='/blogs'>
-                    <li>blogs</li>
-                  </Link>
+                  <li>
+                    <Link to='/'>
+                      home
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to='/aboutme'>
+                      about
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to='/projects'>
+                      projects
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to='/blogs'>
+                      blogs
+                    </Link>
+                  </li>
               </ul>
             </nav>
       </header>

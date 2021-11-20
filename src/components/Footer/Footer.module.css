@@ -11,4 +11,13 @@ footer {
 
 footer a {
     margin: 0 25px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+footer a:hover {
+    color: #FFE459;
 }
