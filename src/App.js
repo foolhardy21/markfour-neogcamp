@@ -11,9 +11,8 @@ const App = () => {
   useEffect(() => {
     const body = document.getElementById('root')
     theme === 'light' ? body.style.background = '#FFFFFF' :  body.style.background = '#263238'
-    
-    console.log(body.style.background)
   },[theme])
+
   return (
     <>
           <Main />
