@@ -13,4 +13,4 @@
 - CSS Modules
 - MaterialUI Icons
 
-[Live Site](https://foolhardy.netlify.app/)
+[Live Site](https://vinaykumarr.netlify.app/)
