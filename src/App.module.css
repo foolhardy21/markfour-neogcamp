@@ -5,3 +5,13 @@
     padding: 0;
     user-select: none;
 }
+
+:root {
+    --primary-light: #FFFFFF;
+    --secondary-light: #263238;
+    --accent-light: #607D8B;
+    
+    --primary-dark: #263238;
+    --secondary-dark: #FFFFFF;
+    --accent-dark: #B2DFDB;
+}

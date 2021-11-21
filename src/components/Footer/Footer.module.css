@@ -10,6 +10,7 @@ footer {
 }
 
 footer a {
+    font-size: 1.2vmax;
     margin: 0 25px;
     text-decoration: none;
     color: white;
@@ -20,4 +21,10 @@ footer a {
 
 footer a:hover {
     color: #FFE459;
+}
+
+@media only screen and (max-width: 500px) {
+    footer a {
+        font-size: 1.5vmax;
+    }
 }

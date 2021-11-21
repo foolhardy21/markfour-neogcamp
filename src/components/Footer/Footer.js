@@ -1,9 +1,10 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import styles from './Footer.module.css'
+import './Footer.module.css'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import TwitterIcon from '@material-ui/icons/Twitter'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
+
 const Footer = () => {
     return (
       <footer>
