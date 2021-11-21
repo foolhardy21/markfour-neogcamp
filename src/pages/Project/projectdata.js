@@ -80,6 +80,14 @@ const projects = [
     
 ]
 
+const intermediate_projects = [
+    {
+        name: 'Blog Bookmark App',
+        description: 'A fullstack app where you can store your favourite blogs.',
+        date: new Date('2021-10-21'),
+        source: 'https://github.com/foolhardy21/fullstack-Helsinki/tree/main/Part%205/bloglist-frontend',
+    },
+]
 const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 
-export {projects, months}
+export {projects, intermediate_projects, months}

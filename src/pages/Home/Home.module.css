@@ -1,15 +1,32 @@
-.hero {
+.hero_light {
     display: flex;
     align-items: center;
     min-height: 70vh;
+    background: var(--primary-light);
 }
-.hero_headline {
+.hero_dark {
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+    background: var(--primary-dark);
+}
+.hero_headline_light {
     font-family: 'Playfair Display', serif;
-    color: white;
+    color: var(--secondary-light);
     font-size: 5vmax;
     font-weight: 700;
     margin-left: 50px; 
 }
-.highlight {
-    color: #FFE459;
+.hero_headline_dark {
+    font-family: 'Playfair Display', serif;
+    color: var(--secondary-dark);
+    font-size: 5vmax;
+    font-weight: 700;
+    margin-left: 50px; 
+}
+.highlight_light {
+    color: var(--accent-light);
+}
+.highlight_dark {
+    color: var(--accent-dark);
 }

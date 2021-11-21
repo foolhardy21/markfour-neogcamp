@@ -1,48 +1,92 @@
-* {
-    margin: 0;
-    padding: 0;
-}
 
-.bloglist_section {
+.bloglist_section_light {
     min-height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 30px 0;
+    background: var(--primary-light);
+}
+.bloglist_section_dark {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+    background: var(--primary-dark);
 }
 
-.bloglist_article {
-    background: white;
+.bloglist_article_light {
+    background: var(--primary-light);
+    color: var(--secondary-light);
     width: 35vw;
     padding: 8px;
-    border-style: solid;
-    border-radius: 8px;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-right-style: solid;
+    border-right-width: thin;
+    border-radius: 3px;
+    margin: 10px 0;
 }
-.bloglist_article a {
-    color: black;
+.bloglist_article_dark {
+    background: var(--primary-dark);
+    color: var(--secondary-dark);
+    width: 35vw;
+    padding: 8px;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-right-style: solid;
+    border-right-width: thin;
+    border-radius: 3px;
+    margin: 5px 0;
+}
+.bloglist_title_light {
+    text-transform: capitalize;
     text-decoration: none;
+    color: var(--secondary-light);
 }
-.bloglist_article a:hover {
+.bloglist_title_light:hover {
     text-decoration: underline;
 }
-.bloglist_title {
+.bloglist_title_dark {
     text-transform: capitalize;
+    text-decoration: none;
+    color: var(--secondary-dark);
+}
+.bloglist_title_dark:hover {
+    text-decoration: underline;
 }
 .bloglist_date {
     font-size: 0.9rem;
-    color: rgb(54, 53, 53);
 }
 .bloglist_text {
     margin-top: 10px;
 }
 
+.readmore_light {
+    margin-left: 10px;
+    color: var(--accent-light);
+    text-decoration: none;
+}
+.readmore_light:hover {
+    text-decoration: underline;
+}
+.readmore_dark {
+    margin-left: 10px;
+    color: var(--accent-dark);
+    text-decoration: none;
+}
+.readmore_dark:hover {
+    text-decoration: underline;
+}
+
 @media only screen and (max-width: 850px) {
-    .bloglist_article {
+    .bloglist_article_light, .bloglist_article_dark {
         width: 60vw;
     }
 }
 @media only screen and (max-width: 450px) {
-    .bloglist_article {
+    .bloglist_article_light, .bloglist_article_dark {
         width: 70vw;
     }
 }

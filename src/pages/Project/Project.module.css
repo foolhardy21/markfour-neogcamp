@@ -1,21 +1,78 @@
-.gridsection {
+.gridsection_light {
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    color: white;
-    min-height: 90vh;
+    background: var(--primary-light);
+}
+.gridsection_dark {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background: var(--primary-dark);
 }
 
-.projectarticle {
-    border-style: solid;
-    border-width: thin;
-    border-radius: 5px;
+.beginnerheading_light {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2vmax;
+    background: var(--primary-light);
+    color: var(--secondary-light);
+    padding: 15px 0;
+}
+.beginnerheading_dark {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2vmax;
+    background: var(--primary-dark);
+    color: var(--secondary-dark);
+    padding: 15px 0;
+}
+.projectarticle_light {
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-right-style: solid;
+    border-right-width: thin;
+    border-radius: 3px;
+    border-color: var(--accent-light);
+    color: var(--secondary-light);
+    background: var(--primary-light);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 10px;
+    margin: 5px;
 }
-.projectarticle:hover {
-    border-color: #FFE459;
+.projectarticle_dark {
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-right-style: solid;
+    border-right-width: thin;
+    border-radius: 3px;
+    border-color: var(--accent-dark);
+    color: var(--secondary-dark);
+    background: var(--primary-dark);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+}
+
+.projectarticle_light:hover {
+    border-color: var(--secondary-light);
+    border-bottom-style: none;
+    border-right-style: none;
+    border-top-style: solid;
+    border-top-width: thin;
+    border-left-style: solid;
+    border-left-width: thin;
+    
+}
+.projectarticle_dark:hover {
+    border-color: var(--secondary-dark);
+    border-bottom-style: none;
+    border-right-style: none;
+    border-top-style: solid;
+    border-top-width: thin;
+    border-left-style: solid;
+    border-left-width: thin;
+    
 }
 
 .projecthead {
@@ -37,31 +94,53 @@
 .projectlinks {
     text-align: center;
 }
-.projectarticle a {
-    color: white;
+.projectlive_light {
+    color: var(--secondary-light);
     text-decoration: none;
-}
-.projectlive {
     border-radius: 10px;
     padding: 8px;
 }
-.projectlive:hover {
-    color: #FFE459;
-}
-.projectcode {
+.projectlive_dark {
+    color: var(--secondary-dark);
+    text-decoration: none;
     border-radius: 10px;
     padding: 8px;
 }
-.projectcode:hover {
-    color: #FFE459;
+.projectlive_light:hover {
+    color: var(--accent-light);
+    text-decoration: underline;
+}
+.projectlive_dark:hover {
+    color: var(--accent-dark);
+    text-decoration: underline;
+}
+.projectcode_light {
+    color: var(--secondary-light);
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 8px;
+}
+.projectcode_dark {
+    color: var(--secondary-dark);
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 8px;
+}
+.projectcode_light:hover {
+    color: var(--accent-light);
+    text-decoration: underline;
+}
+.projectcode_dark:hover {
+    color: var(--accent-dark);
+    text-decoration: underline;
 }
 
 @media only screen and (max-width: 850px) {
-    .gridsection {
+    .gridsection_light, .gridsection_dark {
         grid-template-columns: repeat(2, 1fr);
         padding: 20px;
     }
-    .projectarticle {
+    .projectarticle_light, .projectarticle_dark {
         padding: 10px 0;
     }
     .projecthead {
@@ -70,12 +149,12 @@
     .projectdescr, .projectdate {
         font-size: 2vmax;
     }
-    .projectarticle a {
+    .projectlinks {
         font-size: 1.9vmax;
     }
 }
 @media only screen and (max-width: 450px) {
-    .gridsection {
+    .gridsection_light, .gridsection_dark {
         grid-template-columns: repeat(1, 1fr);
     }
     .projecthead {
@@ -84,7 +163,7 @@
     .projectdescr, .projectdate {
         font-size: 1.5vmax;
     }
-    .projectarticle a {
+    .projectlinks {
         font-size: 1.6vmax;
     }
 }
