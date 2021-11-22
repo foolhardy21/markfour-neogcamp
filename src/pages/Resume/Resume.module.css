@@ -3,7 +3,7 @@
     background: var(--primary-light);
     font-family: 'Playfair Display', serif;
     display: flex;
-    overflow: scroll;
+    overflow: auto;
     justify-content: center;
     font-size: 1.5rem;
 }
@@ -12,19 +12,20 @@
     color: var(--secondary-dark);
     font-family: 'Playfair Display', serif;
     display: flex;
-    overflow: scroll;
+    overflow: auto;
     justify-content: center;
     font-size: 1.5rem;
 }
 
 @media only screen and (max-width: 850px) {
-    .about_section_light, .about_section_dark {
+    .resume_section_light, .resume_section_dark {
         font-size: 1.3rem;
+        justify-content: flex-start;
     }
+
 }
 @media only screen and (max-width: 450px) {
-    .about_section_light, .about_section_dark {
+    .resume_section_light, .resume_section_dark {
         font-size: 1.2rem;
-        justify-content: flex-start;
     }
 }
