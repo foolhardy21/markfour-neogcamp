@@ -29,6 +29,7 @@ const Project = () => {
                 })
             }
         </section>
+        <br/><br/>
         <p className={`${theme==='light' ? styles.beginnerheading_light : styles.beginnerheading_dark}`}>beginner (neogCamp level 0)</p>
         <section className={`${theme==='light' ? styles.gridsection_light : styles.gridsection_dark}`}>
             {

@@ -82,10 +82,22 @@ const projects = [
 
 const intermediate_projects = [
     {
-        name: 'Blog Bookmark App',
+        name: 'Blogs Bookmark App',
         description: 'A fullstack app where you can store your favourite blogs.',
         date: new Date('2021-10-21'),
         source: 'https://github.com/foolhardy21/fullstack-Helsinki/tree/main/Part%205/bloglist-frontend',
+    },
+    {
+        name: 'Library App',
+        description: 'A fullstack app for library management.',
+        date: new Date('2021-09-12'),
+        source: 'https://github.com/foolhardy21/server-side-nodejs',
+    },
+    {
+        name: 'ToDo App',
+        description: 'A fullstack app for keeping notes grouped by topics.',
+        date: new Date('2021-07-19'),
+        source: 'https://github.com/foolhardy21/todo-app',
     },
 ]
 const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
