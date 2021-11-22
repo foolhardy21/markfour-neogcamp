@@ -1,5 +1,4 @@
 import React, { useEffect, useContext } from 'react'
-import PDFViewer from 'pdf-viewer-reactjs'
 import {ThemeContext} from '../../context'
 import styles from './About.module.css'
 
@@ -9,7 +8,7 @@ const About = () => {
     useEffect(() => {
         document.title = 'About | VinayKumar'
     },[])
-
+    
     return (
         <section className={`${theme==='light' ? styles.about_section_light : styles.about_section_dark}`}>
             <p>Started with HTML, CSS, JavaScript, React in Feb 2021.</p><br />

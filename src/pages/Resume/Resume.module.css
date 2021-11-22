@@ -1,0 +1,30 @@
+.resume_section_light {
+    color: var(--secondary-light);
+    background: var(--primary-light);
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    overflow: scroll;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.resume_section_dark {
+    background: var(--primary-dark);
+    color: var(--secondary-dark);
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    overflow: scroll;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 850px) {
+    .about_section_light, .about_section_dark {
+        font-size: 1.3rem;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .about_section_light, .about_section_dark {
+        font-size: 1.2rem;
+        justify-content: flex-start;
+    }
+}

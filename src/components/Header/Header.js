@@ -28,6 +28,11 @@ const Header = () => {
                     </Link>
                   </li>
                   <li className={styles.header_li}>
+                    <Link to='/resume' className={`${theme === 'light' ? styles.header_a_light : styles.header_a_dark}`}>
+                      resume
+                    </Link>
+                  </li>
+                  <li className={styles.header_li}>
                     <Link to='/aboutme' className={`${theme === 'light' ? styles.header_a_light : styles.header_a_dark}`}>
                       about
                     </Link>

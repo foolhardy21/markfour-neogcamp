@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 import Header from "../../components/Header/Header"
 import Home from '../../pages/Home/Home'
+import Resume from '../../pages/Resume/Resume'
 import About from '../../pages/About/About'
 import Project from '../../pages/Project/Project'
 import BlogList from '../../pages/BlogList/BlogList'
@@ -17,6 +18,7 @@ const Main = () => {
               <Header />
               <Switch>
                 <Route exact path='/' component={Home} />
+                <Route path='/resume' component={Resume} />
                 <Route path='/aboutme' component={About} />
                 <Route path='/projects' component={Project} />
                 <Route path='/blogs' exact component={BlogList} />
