@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+      <loc>https://vinaykumarr.netlify.app/</loc>
+   </url>
+
+   <url>
+      <loc>https://vinaykumarr.netlify.app/blogs</loc>
+   </url>
+
+   <url>
+      <loc>https://vinaykumarr.netlify.app/blogs/factory-functions</loc>
+   </url>
+
+   <url>
+      <loc>https://vinaykumarr.netlify.app/blogs/prototypal-inheritance</loc>
+   </url>
+
+   <url>
+      <loc>https://vinaykumarr.netlify.app/projects</loc>
+   </url>
+
+   <url>
+      <loc>https://vinaykumarr.netlify.app/resume</loc>
+   </url>
+
+   <url>
+      <loc>https://vinaykumarr.netlify.app/aboutme</loc>
+   </url>
+
+</urlset>
