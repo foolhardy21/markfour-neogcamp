@@ -1,4 +1,5 @@
 import React, { useEffect, useContext } from 'react'
+import PDFViewer from 'pdf-viewer-reactjs'
 import {ThemeContext} from '../../context'
 import styles from './About.module.css'
 
