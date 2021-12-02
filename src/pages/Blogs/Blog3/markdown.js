@@ -126,9 +126,8 @@ I have added a sitemap too which is not necessary for indexing but Google recomm
 &nbsp;
 
 
+[Sitemap](https://vinaykumarr.netlify.app/sitemap.xml)
 ~~~
-[Sitemap](https://vinaykumarr.netlify.app
-    /sitemap.xml)
 User-agent: *
 Disallow:
 ~~~
