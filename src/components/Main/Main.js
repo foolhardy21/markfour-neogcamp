@@ -25,7 +25,7 @@ const Main = () => {
                 <Route path='/blogs' exact component={BlogList} />
                 <Route path='/blogs/factory-functions' component={Blog1} />
                 <Route path='/blogs/prototypal-inheritance' component={Blog2} />
-                <Route path='/blogs/react-and-seo' component={Blog3} />
+                <Route path='/blogs/portfolio-update' component={Blog3} />
               </Switch>
             </Router>
       
