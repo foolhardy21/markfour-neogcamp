@@ -17,7 +17,6 @@ const BlogList = () => {
 
             {
                 blogs_list.map(blog => {
-                    console.log(blog.description.slice(0,50))
                     return <article className={`${theme==='light' ? styles.bloglist_article_light : styles.bloglist_article_dark}`} key={blog.id}>
                             
                             <Link className={`${theme==='light' ? styles.bloglist_title_light : styles.bloglist_title_dark}`} to={`/blogs/${blog.url}`}>
