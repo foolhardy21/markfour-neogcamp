@@ -15,6 +15,14 @@ const blogs_list = [
         description: 'Before we start with this concept, lets understand the meaning of prototype and inheritance.'
         
     },
+    {
+        id: 2,
+        title: 'React and SEO',
+        url: 'react-and-seo',
+        date: new Date('2021-12-02'),
+        description: 'This blog is about all the things I learnt while updating my portfolio.'
+        
+    },
 ]
 
 export default blogs_list

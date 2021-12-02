@@ -10,6 +10,7 @@ import Project from '../../pages/Project/Project'
 import BlogList from '../../pages/BlogList/BlogList'
 import Blog1 from '../../pages/Blogs/Blog1/Blog1'
 import Blog2 from '../../pages/Blogs/Blog2/Blog2'
+import Blog3 from '../../pages/Blogs/Blog3/Blog3'
 
 const Main = () => {
     return (
@@ -24,6 +25,7 @@ const Main = () => {
                 <Route path='/blogs' exact component={BlogList} />
                 <Route path='/blogs/factory-functions' component={Blog1} />
                 <Route path='/blogs/prototypal-inheritance' component={Blog2} />
+                <Route path='/blogs/react-and-seo' component={Blog3} />
               </Switch>
             </Router>
       
