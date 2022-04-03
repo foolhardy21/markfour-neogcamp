@@ -1,3 +1,0 @@
-Sitemap: https://vinaykumarr.netlify.app/sitemap.xml
-User-agent: *
-Disallow:
