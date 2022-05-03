@@ -11,26 +11,28 @@ import BlogList from '../../pages/BlogList/BlogList'
 import Blog1 from '../../pages/Blogs/Blog1/Blog1'
 import Blog2 from '../../pages/Blogs/Blog2/Blog2'
 import Blog3 from '../../pages/Blogs/Blog3/Blog3'
+import Blog4 from '../../pages/Blogs/Blog4/Blog4'
+
 
 const Main = () => {
-    return (
-      
-            <Router>
-              <Header />
-              <Switch>
-                <Route exact path='/' component={Home} />
-                <Route path='/resume' component={Resume} />
-                <Route path='/aboutme' component={About} />
-                <Route path='/projects' component={Project} />
-                <Route path='/blogs' exact component={BlogList} />
-                <Route path='/blogs/factory-functions' component={Blog1} />
-                <Route path='/blogs/prototypal-inheritance' component={Blog2} />
-                <Route path='/blogs/portfolio-update' component={Blog3} />
-              </Switch>
-            </Router>
-      
-    )
-  }
-  
-  export default Main
-  
+  return (
+
+    <Router>
+      <Header />
+      <Switch>
+        <Route exact path='/' component={Home} />
+        <Route path='/resume' component={Resume} />
+        <Route path='/aboutme' component={About} />
+        <Route path='/projects' component={Project} />
+        <Route path='/blogs' exact component={BlogList} />
+        <Route path='/blogs/factory-functions' component={Blog1} />
+        <Route path='/blogs/prototypal-inheritance' component={Blog2} />
+        <Route path='/blogs/portfolio-update' component={Blog3} />
+        <Route path='/blogs/css-learnings' component={Blog4} />
+      </Switch>
+    </Router>
+
+  )
+}
+
+export default Main
