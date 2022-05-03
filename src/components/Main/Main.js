@@ -11,8 +11,6 @@ import BlogList from '../../pages/BlogList/BlogList'
 import Blog1 from '../../pages/Blogs/Blog1/Blog1'
 import Blog2 from '../../pages/Blogs/Blog2/Blog2'
 import Blog3 from '../../pages/Blogs/Blog3/Blog3'
-import Blog4 from '../../pages/Blogs/Blog4/Blog4'
-
 
 const Main = () => {
   return (
@@ -28,7 +26,6 @@ const Main = () => {
         <Route path='/blogs/factory-functions' component={Blog1} />
         <Route path='/blogs/prototypal-inheritance' component={Blog2} />
         <Route path='/blogs/portfolio-update' component={Blog3} />
-        <Route path='/blogs/css-learnings' component={Blog4} />
       </Switch>
     </Router>
 
