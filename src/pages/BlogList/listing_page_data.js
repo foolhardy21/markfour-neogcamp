@@ -1,6 +1,14 @@
 const blogs_list = [
     {
-        id: 3,
+        id: 5,
+        title: 'Some of the React',
+        url: 'https://dev.to/foolhardy21/some-of-the-react-4iam',
+        date: new Date('2022-05-10'),
+        description: 'This blog is about some of the many concepts in React.'
+
+    },
+    {
+        id: 4,
         title: 'Some of the JavaScript',
         url: 'https://dev.to/foolhardy21/some-of-the-js-3j12',
         date: new Date('2022-05-07'),
